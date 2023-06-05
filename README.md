@@ -1,1 +1,1 @@
-# pyrthon-get-domain-information
+# python-get-domain-information
