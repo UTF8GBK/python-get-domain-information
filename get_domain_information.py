@@ -17,7 +17,7 @@ db = pymysql.connect(host='localhost', user='root', password='password', databas
 cursor = db.cursor()
 
 with open('profile.txt','r',encoding='utf-8')as f:
-    data = f.readlines()[:10337]
+    data = f.readlines()
 
 for i in data:
     try:
